@@ -24,3 +24,35 @@ body {
 .ProjectCard {
   color: #333333
 }
+
+
+
+
+/* figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+} */
+
+.grid-container {
+  display: grid;                                                /* 1 */
+  grid-auto-rows: auto;                                         
+  grid-gap: .5rem;                                            
+  grid-template-columns: 400px 400px;   
+}
+
+/* .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+} */
