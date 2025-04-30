@@ -8,7 +8,8 @@ export default function ExperienceCard(props) {
         setMoreInfo(prev => !prev);
     }
     return (
-        <div className="ExperienceCard rounded-md flex flex-col">
+        <div className={`ExperienceCard container ${props.side}`}>
+            <div className="content flex flex-col">
             <h2>
                 {props.name}
             </h2>
@@ -31,6 +32,7 @@ export default function ExperienceCard(props) {
             }
             <button className={`experience-button${moreInfo ? ' closed' : ''}`} onClick={handleInfoButtonClick}>
             </button>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Bank of New York Mellon",
+        "location": "Lake Mary, Florida",
+        "bulletPoints": [
+            "Developed a RESTful API using Spring Boot and QueryDSL to support data consumption by external users through an Angular front end.",
+            "Designed, implemented, and tested user interface screens using Angular and the AG Grid library for business users to efficiently view, manage, and interact with complex data sets."
+
+        ],
+        "side": "left"
+    },
+
+    {
+        "name": "Ultimate Kronos Group",
+        "location": "Weston, Florida",
+        "bulletPoints": [
+            "Refactored cost management dashboard using Google Cloud Platform APIs, Golang, Angular JS.",
+            "Collaborates within an agile setting, utilizing Jira, engaging in daily stand-ups, and conducting code reviews.",
+            "Manage and resolve ad-hoc tasks, including user access provisioning, cloud resource allocation adjustments, InfluxDB creation in GCP regions, and observability alert handling, ensuring seamless operations and optimal resource utilization."
+
+        ],
+        "side": "right"
+    },
+
+    {
+        "name": "Bank of New York Mellon",
+        "location": "New York, New York",
+        "bulletPoints": [
+            "Developed a dynamic dashboard solution using React.JS, GraphQL, Microsoft SQL Server, and SASS",
+            "Conducted research on diverse technologies and methodologies, providing strategic recommendations for optimal problem-solving and driving team innovation."
+
+        ],
+        "side": "left"
+    },
+    {
+        "name": "Florida International University",
+        "location": "Miami, Florida",
+        "bulletPoints": [
+            "GPA: 3.6",
+            "Relevant coursework: Data Structures, Algorithms, Software Engineering"
+
+        ],
+        "side": "right"
+    },
+    {
+        "name": "Software Engineering Bootcamp",
+        "location": "Queens, New York",
+        "bulletPoints": [
+            "Gained foundational knowledge of HTML, including semantic elements, class and ID selectors.",
+            "Learned core CSS concepts such as the box model, styling techniques, and basic animations."
+
+        ],
+        "side": "left"
+    }
+]
+

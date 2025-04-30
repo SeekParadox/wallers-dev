@@ -8,7 +8,7 @@ import githubIcon from '../images/git-100.png';
 
 export default function Home() {
     return (
-        <motion.div className="about mt-10 flex flex-row h-screen w-[80%] m-auto"
+        <motion.div className="about mt-10 flex flex-row h-screen w-[80%] m-auto items-start"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
         >
@@ -53,8 +53,11 @@ export default function Home() {
                     <a href="https://github.com/SeekParadox" target="_blank" className="github"><img src={githubIcon} alt="My github" /></a>
                 </div>
             </section>
-            <img className="hidden lg:block max-w-[50%] max-h-[70%]" src={myHeadShoot} alt="A picture of me is supposed to be here hmm?"></img>
-
+            <img
+  className="hidden lg:block w-full max-w-[600px] h-auto object-contain"
+  src={myHeadShoot}
+  alt="A picture of me is supposed to be here hmm?"
+/>
 
         </motion.div>
     )
