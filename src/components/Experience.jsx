@@ -11,11 +11,9 @@ import experiences from '../experience.json'
 
 // const experiences = JSON.parse(experienceJson)
 export default function Experience() {
-    console.log(experiences);
-
     return (
-        <motion.div className="">
-            <section className="experience-header text-center">
+        <motion.div id="experience" className="min-h-screen">
+            <section className="experience-header text-center mb-16">
                 <h1 className="text-[3rem]">Experience</h1>
                 <p className="text-[2rem]">Professional and educational experience timeline.</p>
             </section>

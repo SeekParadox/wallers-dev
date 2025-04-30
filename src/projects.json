@@ -1,0 +1,12 @@
+[
+
+    {
+        "name": "Minesweeper",
+        "desc": "I developed a Minesweeper game using Java and the Swing library, enabling users to interact with a graphical interface to reveal nearby bombs and flag potential danger zones. To enhance gameplay efficiency, I implemented a Depth-First Search (DFS) algorithm that automatically cascades the reveal of adjacent empty cells when a user clicks on a safe square. Throughout the project, I utilized technologies such as Java, Swing, and Git for development and version control.",
+        "img": "minesweeper.png",
+        "tech": [
+            "#Java",
+            "#Swing"
+        ]
+    }
+]

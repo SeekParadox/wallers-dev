@@ -8,13 +8,16 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="flex flex-col">
-    <Navbar></Navbar>
-    <Home></Home>
-    <Skills></Skills>
-    <Experience></Experience>
-    <Projects></Projects>
-    </div>
+    <>
+      <Navbar></Navbar>
+
+      <div className="flex flex-col">
+        <Home></Home>
+        <Skills></Skills>
+        <Experience></Experience>
+        <Projects></Projects>
+      </div>
+    </>
   );
 }
 

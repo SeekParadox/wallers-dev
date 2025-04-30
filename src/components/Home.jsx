@@ -8,7 +8,7 @@ import githubIcon from '../images/git-100.png';
 
 export default function Home() {
     return (
-        <motion.div className="about mt-10 flex flex-row h-screen w-[80%] m-auto items-start"
+        <motion.div id="home" className="about mt-10 flex flex-row h-screen w-[80%] m-auto items-start"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
         >
@@ -18,7 +18,7 @@ export default function Home() {
                     <p className="text-[1.75em] text-light">I AM A
                         <TypeAnimation className="text-dark"
                             sequence={[
-                                ' PASSIONATE DEVELOPER', // Types 'One'
+                                ' DEVELOPER', // Types 'One'
                                 2000, // Waits 1s
                                 ' LEADER', // Deletes 'One' and types 'Two'
                                 2000, // Waits 2s
