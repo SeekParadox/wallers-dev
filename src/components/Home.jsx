@@ -8,7 +8,7 @@ import githubIcon from '../images/git-100.png';
 
 export default function Home() {
     return (
-        <motion.div id="home" className="about mt-10 flex flex-row h-screen w-[80%] m-auto items-start"
+        <motion.div id="home" className="about mt-10 flex flex-row min-h-screen w-[80%] m-auto items-start"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
         >

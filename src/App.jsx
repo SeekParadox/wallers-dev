@@ -10,13 +10,10 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-
-      <div className="flex flex-col">
         <Home></Home>
         <Skills></Skills>
         <Experience></Experience>
         <Projects></Projects>
-      </div>
     </>
   );
 }

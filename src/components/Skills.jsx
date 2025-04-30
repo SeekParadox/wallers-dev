@@ -15,7 +15,7 @@ import git from '../images/git-100.png';
 
 export default function Skills() {
     return (
-        <motion.div id="skills" className="text-center h-screen"
+        <motion.div id="skills" className="text-center min-h-screen"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}>
             <h1 className="text-[3rem]">Skills</h1>
