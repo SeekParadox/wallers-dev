@@ -44,8 +44,8 @@ export default function Home() {
                 </p>
 
                 <div className="flex flex-row gap-10 lg:gap-40 items-center justify-center">
-                    <a className="resume-button text-2xl rounded-lg" href="">Resume</a>
-                    <a className="contact-button text-2xl rounded-lg" href="">Contact</a>
+                    <a className="resume-button text-2xl rounded-lg" href="https://drive.google.com/file/d/1njvLxF7zuCWKQ6FTha3T5KqFKTKMMBtA/view?usp=sharing" target="_blank">Resume</a>
+                    <a className="contact-button text-2xl rounded-lg" href="#contact">Contact</a>
                 </div>
                 <div className="personal-links flex flex-row justify-center lg:justify-start gap-4">
                     <a href="mailto:someone@example.com" target="_blank" className="email"> <img src={emailIcon} alt="Send me an email" /></a>

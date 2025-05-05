@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import projects from '../projects.json';
 export default function Projects() {
     return (
-        <motion.div className="h-screen">
+        <motion.div className="min-h-screen">
             <section className="project-header flex flex-col justify-center items-center mb-16">
                 <h1 className="text-[3rem]">Projects</h1>
                 <p className="text-[2rem]">Here is a list of some of the cool projects I worked on.</p>

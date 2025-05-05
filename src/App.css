@@ -155,3 +155,24 @@ html {
   background-color: #A3D1C6;
 
 }
+
+form {
+  background-color: #1F7D53;
+
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+input, textarea {
+  color: black;
+}
+
+.submit-button {
+  background-color: #A3D1C6;
+  padding: 2%;
+  width: 50%;
+  margin: 16px auto;
+
+}

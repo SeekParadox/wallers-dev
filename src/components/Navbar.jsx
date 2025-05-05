@@ -27,7 +27,7 @@ export default function Navbar() {
                 <a href="#experience" className="header-element">Experience</a>
                 <a href="#projects" className="header-element">Projects</a>
                 <a href="#contact" className="header-element">Contact</a>
-                <a href="#resume" className="header-element">Resume</a>
+                <a href="https://drive.google.com/file/d/1njvLxF7zuCWKQ6FTha3T5KqFKTKMMBtA/view?usp=sharing" target="_blank" className="header-element">Resume</a>
             </> : <></>
             }
 
